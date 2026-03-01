@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>An Nguyen | EE/CE Student</title>
+  <meta name="description" content="Portfolio website for An Nguyen — Electrical & Computer Engineering." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header class="header">
+    <nav class="nav">
+      <a class="brand" href="#top" aria-label="Go to top">An Nguyen</a>
+      <div class="links">
+        <a href="#projects">Projects</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <button id="themeBtn" class="btn small" type="button" aria-label="Toggle theme">☾</button>
+      </div>
+    </nav>
+  </header>
+
+  <main id="top" class="container">
+    <section class="hero">
+      <p class="pill">EE/CE • FPGA • Embedded • AI</p>
+      <h1>Building hardware + software that actually ships.</h1>
+      <p class="sub">
+        I’m An Nguyen, an Electrical & Computer Engineering student. I build projects in
+        digital design, embedded systems, and applied AI.
+      </p>
+
+      <div class="actions">
+        <a class="btn" href="#projects">See projects</a>
+        <a class="btn ghost" href="#contact">Contact me</a>
+      </div>
+
+      <div class="stats">
+        <div class="card">
+          <p class="k">Focus</p>
+          <p class="v">FPGA / Verilog</p>
+        </div>
+        <div class="card">
+          <p class="k">Also</p>
+          <p class="v">Python / Data</p>
+        </div>
+        <div class="card">
+          <p class="k">Goal</p>
+          <p class="v">NVIDIA → Startup</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="sectionHead">
+        <h2>Projects</h2>
+        <p>Pick 3–6 strong projects. Keep each one short and measurable.</p>
+      </div>
+
+      <div class="grid">
+        <article class="project card">
+          <h3>Protein Folding Predictor (AI + 3D)</h3>
+          <p class="muted">
+            Built a pipeline for structure prediction + visualization; focused on model evaluation and rendering.
+          </p>
+          <ul class="tags">
+            <li>Python</li><li>ML</li><li>3D</li>
+          </ul>
+          <div class="row">
+            <a class="link" href="#" aria-disabled="true">GitHub (add link)</a>
+            <span class="dot">•</span>
+            <a class="link" href="#" aria-disabled="true">Demo (add link)</a>
+          </div>
+        </article>
+
+        <article class="project card">
+          <h3>Verilog Lab Suite</h3>
+          <p class="muted">
+            Testbenches, counters, decoding, and clean module structure with readable simulations.
+          </p>
+          <ul class="tags">
+            <li>Verilog</li><li>Simulation</li><li>Digital Design</li>
+          </ul>
+          <div class="row">
+            <a class="link" href="#" aria-disabled="true">GitHub (add link)</a>
+            <span class="dot">•</span>
+            <a class="link" href="#" aria-disabled="true">Write-up (add link)</a>
+          </div>
+        </article>
+
+        <article class="project card">
+          <h3>Embedded System Mini-Project</h3>
+          <p class="muted">
+            Sensor readout + control logic with a simple UI/logging. (Swap in your real project here.)
+          </p>
+          <ul class="tags">
+            <li>C/C++</li><li>MCU</li><li>I/O</li>
+          </ul>
+          <div class="row">
+            <a class="link" href="#" aria-disabled="true">GitHub (add link)</a>
+            <span class="dot">•</span>
+            <a class="link" href="#" aria-disabled="true">Demo (add link)</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="sectionHead">
+        <h2>About</h2>
+        <p>Short, specific, and confident. Avoid generic buzzwords.</p>
+      </div>
+
+      <div class="twoCol">
+        <div class="card">
+          <h3>What I’m into</h3>
+          <p class="muted">
+            Digital logic, FPGA workflows, embedded systems, and using Python to analyze and automate things.
+            I like turning “class concepts” into real builds.
+          </p>
+          <p class="muted">
+            Currently aiming for top labs/teams and long-term: graduate school + NVIDIA + startup.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>Skills</h3>
+          <ul class="list">
+            <li><span>HDL</span><span class="muted">Verilog, testbenches</span></li>
+            <li><span>Software</span><span class="muted">Python, basic data workflows</span></li>
+            <li><span>Tools</span><span class="muted">Git, VS Code, simulations</span></li>
+            <li><span>Learning</span><span class="muted">FPGA toolchains, embedded dev</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="sectionHead">
+        <h2>Contact</h2>
+        <p>Put your real links here. Make it easy to reach you.</p>
+      </div>
+
+      <div class="contact card">
+        <div>
+          <p class="k">Email</p>
+          <p class="v"><a class="link" href="mailto:youremail@example.com">youremail@example.com</a></p>
+        </div>
+        <div>
+          <p class="k">LinkedIn</p>
+          <p class="v"><a class="link" href="#" aria-disabled="true">Add your profile</a></p>
+        </div>
+        <div>
+          <p class="k">GitHub</p>
+          <p class="v"><a class="link" href="#" aria-disabled="true">Add your repo</a></p>
+        </div>
+      </div>
+
+      <footer class="footer muted">
+        <p>© <span id="year"></span> An Nguyen. Built with HTML/CSS.</p>
+      </footer>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
